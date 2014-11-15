@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2011.4.16)  15 NOV 2014 01:50
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2011.4.16)  15 NOV 2014 02:35
 entering extended mode
 **BookBased.tex
 (./BookBased.tex
@@ -650,68 +650,89 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [20]
 Chapter 7.
 
-Underfull \hbox (badness 4132) in paragraph at lines 350--351
+Underfull \hbox (badness 3769) in paragraph at lines 345--346
+[]|\OT1/cmr/m/n/12 buttermilk (roughly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]|\OT1/cmr/m/n/12 unsalted but-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\OT1/cmr/m/n/12 (roughly 2 T),
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 370--371
 []|\OT1/cmr/m/n/12 unsweetened, co-coa
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 358--358
+Underfull \hbox (badness 3735) in paragraph at lines 378--378
 []|\OT1/cmr/m/n/12 prepared plain hot
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \vbox (158.8739pt too high) has occurred while \output is active []
-
-
-[21
+ [21
 
 ]
-Underfull \hbox (badness 4254) in paragraph at lines 398--399
-[]|\OT1/cmr/m/n/12 very ripe ba-nanas,
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
+[]|\OT1/cmr/m/n/12 very ripe ba-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
+\OT1/cmr/m/n/12 nanas, mashed
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-Underfull \hbox (badness 1005) in paragraph at lines 415--416
+Underfull \hbox (badness 1005) in paragraph at lines 435--436
 []|\OT1/cmr/m/n/12 frozen whole straw-
  []
 
 
-Underfull \hbox (badness 7981) in paragraph at lines 416--417
+Underfull \hbox (badness 7981) in paragraph at lines 436--437
 []|\OT1/cmr/m/n/12 whole milk, room
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 420--421
+Underfull \hbox (badness 1371) in paragraph at lines 440--441
 []|\OT1/cmr/m/n/12 (12 $1\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 4$ oz) gran-u-
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 423--423
+Underfull \hbox (badness 2005) in paragraph at lines 443--443
 \OT1/cmr/m/n/12 into 12 pieces and
  []
 
 
-Overfull \hbox (34.27264pt too wide) in paragraph at lines 414--425
+Overfull \hbox (34.27264pt too wide) in paragraph at lines 434--445
 [] |
  []
 
-[23] [24
 
-]
+Underfull \vbox (badness 5802) has occurred while \output is active []
+
+ [23]
+[24]
 Chapter 8.
 
-Underfull \hbox (badness 1127) in paragraph at lines 485--486
+Underfull \hbox (badness 1127) in paragraph at lines 505--506
 []|\OT1/cmr/m/n/12 modified plain base
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 486--487
+Underfull \hbox (badness 3579) in paragraph at lines 506--507
 []|\OT1/cmr/m/n/12 strawberries, hulled
  []
 
@@ -721,47 +742,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [25
 
 ]
-Underfull \hbox (badness 4899) in paragraph at lines 515--516
+Underfull \hbox (badness 4899) in paragraph at lines 535--536
 []|\OT1/cmr/m/n/12 (21 grams or 3/4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--516
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
 \OT1/cmr/m/n/12 ounce) semisweet
  []
 
 
-Underfull \hbox (badness 7631) in paragraph at lines 515--516
+Underfull \hbox (badness 7631) in paragraph at lines 535--536
 \OT1/cmr/m/n/12 choco-late chips or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--516
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
 \OT1/cmr/m/n/12 chopped semisweet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
 []|\OT1/cmr/m/n/12 (7 grams or 1/4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--519
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
 []|\OT1/cmr/m/n/12 (8 grams or 1/4
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 518--519
+Underfull \hbox (badness 3138) in paragraph at lines 538--539
 \OT1/cmr/m/n/12 ounce) unsweet-ened
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\OT1/cmr/m/n/12 (7 grams or 1/4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \OT1/cmr/m/n/12 ounce) un-salted
  []
 
@@ -774,7 +795,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Chapter 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
 []|\OT1/cmr/m/n/12 dishwashing de-ter-
  []
 
@@ -802,4 +823,4 @@ are/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky
 /cm/cmsl12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/
 texmf/fonts/type1/bluesky/cm/cmss17.pfb></usr/share/texmf/fonts/type1/bluesky/c
 m/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb>
-Output written on BookBased.pdf (31 pages, 116527 bytes).
+Output written on BookBased.pdf (31 pages, 117179 bytes).

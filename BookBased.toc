@@ -35,18 +35,17 @@
 \contentsline {chapter}{\numberline {7}Western Pastries}{21}
 \contentsline {section}{\numberline {7.1}Breakfast}{21}
 \contentsline {subsection}{\numberline {7.1.1}Pancake}{21}
-\contentsline {subsubsection}{Ingredients}{21}
 \contentsline {subsubsection}{Instructions}{21}
-\contentsline {section}{\numberline {7.2}Cake}{21}
-\contentsline {subsection}{\numberline {7.2.1}Red Velvet Cake}{21}
-\contentsline {subsubsection}{Ingredients}{21}
+\contentsline {section}{\numberline {7.2}Cake}{22}
+\contentsline {subsection}{\numberline {7.2.1}Red Velvet Cake}{22}
+\contentsline {subsubsection}{Ingredients}{22}
 \contentsline {subsubsection}{Instructions}{22}
-\contentsline {subsection}{\numberline {7.2.2}Banana Bread}{22}
-\contentsline {subsection}{\numberline {7.2.3}Ingredients}{22}
-\contentsline {subsection}{\numberline {7.2.4}Instructions}{22}
+\contentsline {subsection}{\numberline {7.2.2}Banana Bread}{23}
+\contentsline {subsection}{\numberline {7.2.3}Ingredients}{23}
+\contentsline {subsection}{\numberline {7.2.4}Instructions}{23}
 \contentsline {subsection}{\numberline {7.2.5}Strawberry Cake}{23}
 \contentsline {subsubsection}{Ingredients}{23}
-\contentsline {subsubsection}{Instructions}{23}
+\contentsline {subsubsection}{Instructions}{24}
 \contentsline {chapter}{\numberline {8}Cold Treats}{25}
 \contentsline {section}{\numberline {8.1}Ice Cream}{25}
 \contentsline {subsection}{\numberline {8.1.1}Plain Base}{25}
