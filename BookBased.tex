@@ -1,0 +1,557 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "book" class.
+% See "article", "report", "letter" for other types of document.
+
+% We set the following standard class options
+% font size (12pt)
+% paper size and orientation (not specified/defaulted - letterpaper, landscape)
+% page formats (two column, twoside, openright, titlepage)
+% further options (draft)
+\documentclass[12pt,landscape,twoside,twocolumn, openright, titlepage, draft]{book} 
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Book customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+%\fancyhead[CO,CE]{---Draft---}
+\fancyfoot[CO,CE]{---Draft---}
+%\renewcommand{\headrulewidth}{0pt} % customise the layout...
+%\lhead{}\chead{}\rhead{}
+%\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\begin{titlepage}
+\title{My\\Really\\Tiny\\Cookbook}
+\author{Beethoven Cheng}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+\end{titlepage}
+
+
+\begin{document}
+\maketitle
+%
+\tableofcontents
+\chapter{Introduction}
+
+The purpose of this book is to collect recipes we in the Cheng household regularly use.
+
+Recipes, as anyone can imagine, are never invented. Instead, they are evolved from existing recipes - allrecipes.com, a favorite cookbook, stolen from the back of a can. The recipes here are no different.
+
+I have, however, used these recipes on more than a few occasions; having kids has its effects. I have made the bubble solution so many times now that I can make it in my sleep. The red velvet cake recipe has become the goto recipe for that church potluck or kiddie birthday. Each recipe has therefore been dummy-proofed (the dummy being my forgetful self).
+
+I have, on occasion, altered an ingredient here or there so feel free to do so after you have used a recipe more than once. I have found, for example, that an icing recipe is often a suggestion and therefore, may cut down the amount of powdered sugar I use by as much as 60 percent from the amount suggested by the recipe (say the suggestion is 10 cups. I may use 4 cups instead).
+
+This book is written using emacs, typeset using \LaTeX and published via Dropbox.com. Future versions will include a bibliography so you can find out where I stole/borrowed/sourced my recipes. If anyone is interested, I can also send you the \LaTeX source so you can throw out all the recipes and write your own.
+
+As usual, please let me know if you find errors in this book.
+
+\chapter{Articles I Read Over and Over}
+
+\section{Baking}
+
+\subsection{Butter Holds the Secret to Cookies That Sing}
+
+WHEN home bakers get out the mixer and the decorating sugar at this time of year, visions of perfect-edged cookies and shapely cakes dance in their heads. But too often, the reality  both for the cookie and the baker  is ragged, fallen, and fraying around the edges.
+
+Ive cried many times at 2 a.m., when the cookies fall apart after all that work, said Susan Abbott, a lawyer in Dallas who tries every Christmas to reproduce her mothers flower-shaped lemon cookies, though she rarely bakes during the rest of the year.
+
+It seems that home bakers dont always follow instructions precisely, said Amy Scherber, the owner of Amys Bread stores in Manhattan (where she also makes cakes and cookies, including orange butter cookies). And then its so disappointing when things dont turn out.
+
+The most common mistakes made by home bakers, professionals say, have to do with the care and handling of one ingredient: butter. Creaming butter correctly, keeping butter doughs cold, and starting with fresh, good-tasting butter are vital details that professionals take for granted, and home bakers often miss.
+
+Butter is basically an emulsion of water in fat, with some dairy solids that help hold them together. But food scientists, chefs and dairy professionals stress butters unique and sensitive nature the way helicopter parents dote on a gifted child.
+
+Butter has that razor melting point, said Shirley O. Corriher, a food scientist and author of the recently published BakeWise: The Hows and Whys of Successful Baking (Scribner).
+
+For mixing and creaming, butter should be about 65 degrees: cold to the touch but warm enough to spread. Just three degrees warmer, at 68 degrees, it begins to melt.
+
+Once butter is melted, its gone, said Jennifer McLagan, author of the new book Fat: An Appreciation of a Misunderstood Ingredient, With Recipes (Ten Speed Press).
+
+Warm butter can be rechilled and refrozen, but once the butterfat gets warm, the emulsion breaks, never to return.
+
+For clean edges on cookies and for even baking, doughs and batters should stay cold  place them in the freezer when the mixing bowl seems to be warming up. And just before baking, cookies should be very well chilled, or even frozen hard.
+
+Cold butters ability to hold air is vital to creating what pastry chefs call structure  the framework of flour, butter, sugar, eggs and leavening that makes up most baked goods.
+
+Before Anita Chu began work on her just-published Field Guide to Cookies (Quirk Books), she was a Berkeley-trained structural engineer with a baking habit she couldnt shake. One of her favorite cookies is the croq-tl, or TV snack, a chunky cookie she adapted from the Paris pastry chef Arnaud Larher. There is no leavening to lift it, no eggs to hold it together, she said. Its all about the butter. Ms. Chus experience in design helped her with the demanding precision of pastry.
+
+Butter is like the concrete you use to pour the foundation of a building, she said. So its very important to get it right: the temperature, the texture, the aeration.
+
+Ms. Chu says that butter should be creamed  beaten to soften it and to incorporate air  for at least three minutes. When you cream butter, youre not just waiting for it to get soft, youre beating air bubbles into it, Ms. Chu said. When sugar is added, it makes more air pockets, she said.
+
+And those air bubbles are all that cookies or cakes will get, Ms. Corriher said. Baking soda and baking powder cant make air bubbles, she said. They only expand the ones that are already there.
+
+The best way to get frozen or refrigerated butter ready for creaming is to cut it into chunks. (Never use a microwave: it will melt it, even though it will look solid.) When the butter is still cold, but takes the imprint of a finger when gently pressed, it is ready to be creamed.
+
+When using a stand mixer, attach the paddle blade, and never go above medium speed, or the butter will heat up.
+
+Butters structural abilities are most crucial in layered or laminated pastries like puff pastry, strudel, croissants and pie dough, where flour-coated globules of butter expand during baking, creating flat layers of pastry bathed in melted butter.
+
+The result is almost succulent, splintering into flakes and shards with each bite. Alvin Lee, the owner of Lee Lees Baked Goods in Harlem, may be one of the last commercial bakers in New York producing traditional butter-dough rugelach, the Austrian-German-Jewish cookies that are like tiny strudels. Most rugelach are made with vegetable shortening, which is much cheaper and longer-lasting. Shortening behaves well at most temperatures and makes crumbly, tender doughs, but has no flavor of its own. Mr. Lees rugelach are buttery, magnificent, and fleeting. He says he came out of retirement, after a 30-year professional baking stint, determined to master the rugelach genre. I couldnt find one that I wanted to eat, with all the old Jewish and German bakeries closing, he said. So I had to make them myself.
+
+As commercial baking moves away from butter, home cooks have more choices. There are regional French butters with impeccable government credentials, English butter from Jersey cows, yellow butter from Alpine peaks and white butter from Emilia-Romagna. (European Union export subsidies are one reason for the cornucopia.)
+
+Standard American butter, usually made from fresh cream, is about 80 percent fat. European butters are about 82 percent, and made from slightly fermented cream. (American butters in that style, fashionable among food lovers, are often called cultured.)
+
+Salted butter was long disparaged by American epicures, but the French, the global butter authorities, welcome salt. Salt makes food taste better, said Robert Bradley, emeritus professor of dairy science at the University of Wisconsin in Madison. Why not butter?
+
+Blind tastings by Dining section staff members and others found the differences among butters, European and American, to be pronounced. Some were waxy, some nutty, some grassy. Some seemed less greasy than others. Professionals like Mr. Bradley can taste many other flavor undertones in butter, some lovely and some not, including grass, flowers, whey, old cream, malt, must and weed. Some flavor differences come from cows feed. Others are acquired during processing.
+
+Overall, the European-style butters have more of a golden, warm, toasty flavor. (This is from a compound called diacetyl that develops during fermentation.) Standard American butter has a fresher flavor of milk and cream.
+
+But quality was unpredictable. The butter with the best credentials (high in fat, from the cows used to make Parmigiano-Reggiano cheese), and the one with the most alluring packaging, were the most flavorless.
+
+Our favorite butters were salted Kerrygold from Ireland, unsalted Kates Homemade Butter from Old Orchard Beach, Me., and a limited edition cultured butter from Organic Valley, made from May to September, when cows are outside at least part of the time, eating grass rather than feed. Butter from grass-fed cows, rich in beta carotene, is more yellow (not higher in butterfat, as many believe).
+
+In baking, the flavor differences mostly disappear. High-fat butters can be used in traditional recipes. You shouldnt see much difference, said Kim Anderson, director of the Pillsbury test kitchen, maybe a slightly richer flavor and more tender crumb.
+
+Most important is that butter be well preserved. Mr. Bradley recommends wrapping butter thats not going to be used immediately in foil, then sealing the edges with tape. Or using it quickly.
+
+I just went out and bought eight pounds of butter, said Robin Olson, and it will all be gone by next weekend. Ms. Olson, of Gaithersburg, Md., is making six dozen cookies this week and reigns as queen of the Christmas cookie party at her Web site, cookie-exchange.com. Her instructions for cookie swaps are widely adopted. She always calls for butter.
+
+I can tell a margarine cookie as soon as I bite into it, she said. And then I put it right down.
+
+\chapter{Small Plates}
+\section{Chicken, Pork and Beef}
+\subsection{Tapa}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}} \\
+  $1/2$ kg & beef sirloin, thinly sliced \\
+  2 T      & sugar \\
+  1 t      & ground black pepper            \\
+  1 C      & soy sauce  \\
+  3 T      & minced garlic \\
+  1 t      & salt  \\
+  1        & clear plastic bag like Ziploc \\ \\
+\end{tabular}
+\subsubsection{Instructions}
+To Marinate:
+
+Combine in a container the following ingredients; soy sauce, garlic, salt, pepper, and sugar and mix well then set aside.
+After mixing all the ingredients place the Beef in the clear plastic bag or Ziploc
+Pour the mixed seasonings in the Ziploc with meat and mix well.
+Refrigerate the marinade for a minimum of 12 hours
+How to Cook the Beef Tapa:
+
+In a pan, place 2 cups of water and bring to a boil
+Add the marinated beef tapa and cook until the water evaporates.
+When all the water evaporated add 3 tbsp of cooking oil in the pan then fry the Tapa until done.
+Serve with rice topped with fried egg and sliced tomatoes.
+
+
+
+
+\subsection{A subsection}
+
+More text.
+
+\chapter{Poultry}
+
+
+\section{Teriyaki Chicken}
+
+\subsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+  $1/4$ C & soy sauce \\
+  1 C     & water \\
+  $1/2$ t & ground ginger \\
+  $1/4$ t & garlic powder \\
+  5 T     & packed brown sugar \\
+  2 T     & honey \\
+  2 T     & cornstarch \\
+  $1/4$ C & cold water \\
+  $2$ lb  & chicken breast, butterflied \\ \\
+\end{tabular}
+
+\subsection{Instructions}
+
+Mix all but cornstarch and 1/4 cup water in a sauce pan and begin
+heating. Mix cornstarch and cold water in a cup and dissolve. Add to
+sauce in pan. Heat until sauce thickens to desired thickness. Add
+water to thin if you over-thick it.
+
+Once the teriyaki sauce has cooled, add enough teriyaki sauce to
+chicken breast to cover the chicken completely. Marinate overnight.
+Grill or bake at 375 degrees F until done.
+
+Drizzle sauce on top of chicken before serving. Remaining sauce can
+be saved in a squeeze tube for later use.
+
+\section{Orange Chicken}
+
+\subsection{Ingredients}
+
+\begin{tabular}{r p{1.5in}}
+  1 1/2 lb  & chicken breast, boneless, skinless, cut into 1 inch cubes \\
+  1 C + 2 T & cornstarch, divided \\
+  2         & large eggs, beaten \\
+  1 C       & oil (for frying) \\
+  1 T       & sesame seeds \\
+  2         & green onions, sliced thinly \\
+  1 1/2 C   & chicken broth \\
+  4 T       & Orange Juice Concentrate OR 1 cup chicken broth + 1/2 cup freshly squeezed orange juice \\
+  1/2 C     & sugar \\
+  1/3 C     & distilled white vinegar \\
+  1/4 C     & soy sauce \\
+  2 cloves  & garlic, minced \\
+  1 T       & orange zest (I did not add) \\
+  1 t       & Sriracha, or more, to taste \\
+  1/4 t     & ground ginger \\
+  1/4 t     & white pepper \\
+  1 t       & salt \\ \\
+\end{tabular}
+
+\subsection{Instructions}
+
+
+\chapter{Pizza}
+\section{The Dough}
+\subsection{New York Style}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+4 $1/2$ C  & bread flour \\ 
+1 $1/2$ T  & sugar \\ 
+3 t        & salt  \\ 
+2 t        & instant yeast \\ 
+3 T        & extra-virgin olive oil  \\
+15 oz      & lukewarm water \\ \\
+\end{tabular}
+
+\subsubsection{Instructions}
+
+Combine flour, sugar, salt, and yeast in bowl of food processor. Pulse 3 to 4 times until incorporated. Add olive oil and water. Run food processor until mixture forms ball that rides around the bowl above the blade, about 15 seconds. Continue processing 15 seconds longer.
+
+Transfer dough ball to lightly floured surface and knead once or twice by hand until smooth ball is formed. It should pass the windowpane test. Divide dough into three even parts and place each in a covered quart-sized deli container or in a zipper-lock freezer bag. Place in refrigerator and allow to rise at least one day, and up to 5.
+
+At least two hours before baking, remove dough from refrigerator and shape into balls by gathering dough towards bottom and pinching shut. Flour well and place each one in a separate medium mixing bowl. Cover tightly with plastic wrap and allow to rise at warm room temperature until roughly doubled in volume.
+
+1 hour before baking, adjust oven rack with pizza stone to middle position and preheat oven to 550 degrees. Turn single dough ball out onto lightly flour surface. Gently press out dough into rough 8-inch circle, leaving outer 1-inch higher than the rest. Gently stretch dough by draping over knuckles into a 12 to 14-inch circle about 1/4-inch thick. Transfer to pizza peel.
+
+\chapter{Kakanin}
+\section{Cassava}
+\subsection{Cassava Bibingka}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+  1 kg    & grated cassava root or kamoteng kahoy \\
+  4 C     & coconut cream \\
+  2 C     & white sugar \\
+  $1/4$ C & melted butter \\
+  2       & large eggs \\ \\
+\end{tabular}
+\subsubsection{Instructions}
+Beat eggs slightly. Add to all ingredients. Mix well until well blended. Pour into a grease pan lined with banana leaves that have also been greased. Bake in oven preheated to 340F for 55 minutes or until set.
+
+\section{Malagkit}
+\subsection{Bibingkang Malagkit}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+  2 C & malagkit \\
+  4 C & coconut cream \\
+  1 C & brown sugar \\
+  1 t pandan flavoring \\ \\
+\end{tabular}
+\subsubsection{Instructions}
+
+\subsection{Lengua de Gato}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}} \\
+  1 C     & all-purpose flour, sifted \\
+  $1/2$ C & superfine white sugar \\
+  2       & whites from eggs \\
+  $1/4$ t & salt \\
+  $1/2$ C & butter, softened \\
+  $1/2$ t & vanilla extract \\ \\
+\end{tabular}
+
+\subsubsection{Instructions}
+
+\par Preheat oven to 375 degrees Fahrenheit.
+
+\par Cream the butter using an electric mixer then gradually add the
+sugar. Continue mixing for another 2 minutes.
+
+\par Stir-in the egg whites gradually and mix for about 3 to 4 minutes
+more.
+
+\par Add salt and vanilla extract.
+
+\par Gradually stir-in the flour. Continue to mix for about 2 to 3
+minutes more or until the mixture is well incorporated.
+
+\par Get a piping bag and install a round tip. Place the mixture in
+the piping bag.
+
+\par On a baking tray lined with wax or parchment paper, begin piping
+the mixture. Each piece should be about 2.5 to 3 inches in length.  
+
+\par
+Bake for 9 to 10
+minutes.  
+
+\par
+Remove from the oven and place in a cookie rack until the
+temperature cools down.  
+
+\chapter{Western Pastries}
+\section{Breakfast}
+\subsection{Pancake}
+\subsubsection{Ingredients}
+
+\subsubsection{Instructions}
+\section{Cake}
+\subsection{Red Velvet Cake}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+  2 C & all purpose flour \\
+  1 t & of baking soda \\
+  1 t & of baking powder \\
+  1 t & of salt \\
+  2 T & unsweetened, cocoa powder  \\
+  2 C & sugar \\
+  1 C & vegetable oil  \\
+  2   & eggs \\
+  1 C & buttermilk \\
+  2 t & vanilla extract \\
+  1-2 oz. & red food coloring \\
+  1 t     & white distilled vinegar \\
+  $1/2$ C & prepared plain hot coffee \\ \\
+\end{tabular}
+\subsubsection{Instructions}
+
+Preheat oven to 325.
+
+In a medium bowl, whisk together flour, baking soda, baking powder,
+cocoa powder and salt. Set aside.
+
+In a large bowl, combine the sugar and vegetable oil.
+
+Mix in the eggs, buttermilk, vanilla and red food coloring until combined.
+
+Stir in the coffee and white vinegar.
+
+Combine the wet ingredients with the dry ingredients a little at time,
+mixing after each addition, just until combined.
+
+Generously grease and flour two round cake pans with shortening and flour.
+Pour the batter evenly into each pan.
+
+Bake in the middle rack for 30-40 minutes, or until a toothpick comes
+out clean. Do not over bake as cake will continue to cook as it cools.
+
+Let cool on a cooling rack until the pans are warm to the touch.
+Slide a knife or offset spatula around the inside of the pans to
+loosen the cake from the pan.  Remove the cakes from the pan and let
+them cool.  
+
+Frost the cake with cream cheese frosting when the cakes have cooled
+completely.
+
+\subsection{Banana Bread}
+\subsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+  2 $1/2$ C & all purpose flour \\
+  1 t       & baking soda \\
+  1 t       & salt \\
+  $1/2$ C   & butter, softened  \\
+  1 $1/4$ C & sugar \\
+  1 $1/2$ C & very ripe bananas, mashed  \\
+  $1/2$ C   & buttermilk \\
+  1 t       & vanilla extract \\
+  2         & eggs, beaten \\
+  1 C       & chopped nuts, if desired \\ \\
+\end{tabular}
+
+\subsection{Instructions}
+Move oven rack to low position so that tops of pans will be in center of oven. Heat oven to 350 degrees F. Grease bottoms only of 2 loaf pans, 8 $1/2$ x 4 $1/2$ x 2 $1/2$ inches, or 1 loaf pan, 9x5x3 inches. 
+
+Mix sugar and butter in large bowl. Stir in eggs until well blended. Add bananas, buttermilk and vanilla. Beat until smooth. Stir in flour, baking soda and salt just until moistened. Stir in nuts. Pour into pans. 
+
+Bake 8-inch loaves about 1 hour, 9-inch loaf about 1 $1/4$ hours, or until toothpick inserted in center comes out clean. Cool 10 minutes. Loosen sides of loaves from pans; remove from pans and place top side up on wire rack. Cool completely, about 2 hours, before slicing. Wrap tightly and store at room temperature up to 4 days, or refrigerate up to 10 days. 
+
+\subsection{Strawberry Cake}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+    2 C & frozen whole strawberries (10 oz) \\
+    $3/4$ C & whole milk, room temperature \\
+    6 large egg whites, room temperature \\
+    2 t vanilla extract \\
+    2 $1/4$ C & (9 oz) cake flour \\
+    1 $3/4$ C & (12 $1/4$ oz) granulated sugar \\
+    4 t baking powder \\
+    1 t salt \\
+    12 T & unsalted butter, cut into 12 pieces and softened \\ \\
+\end{tabular}
+
+\subsubsection{Instructions}
+
+For the cake: Adjust oven rack to middle position and heat oven to 350 degrees. Grease two 9-inch round cake pans, line bottoms with parchment, grease parchment, and flour.
+
+Transfer strawberries to bowl, cover, and microwave until strawberries are soft and have released their juice, about 5 minutes. Place in fine-mesh strainer set over small saucepan. Firmly press fruit dry (juice should measure at least 3/4 cup); reserve strawberry solids. Bring juice to boil over medium-high heat and cook, stirring occasionally, until syrupy and reduced to 1/4 cup, 6 to 8 minutes. Whisk milk into juice until combined.
+
+Whisk strawberry milk, egg whites, and vanilla in bowl. Using stand
+mixer fitted with paddle, mix flour, sugar, baking powder, and salt on
+low speed until combined. Add butter, 1 piece at a time, and mix until
+only pea-size pieces remain, about 1 minute. Add half of milk mixture,
+increase speed to medium-high, and beat until light and fluffy, about
+1 minute. Reduce speed to medium-low, add remaining milk mixture, and
+beat until incorporated, about 30 seconds. Give batter final stir by
+hand.
+
+Scrape equal amounts of batter into prepared pans and bake until
+toothpick inserted in center comes out clean, 20 to 25 minutes,
+rotating pans halfway through baking. Cool cakes in pans on wire rack
+for 10 minutes. Remove cakes from pans, discarding parchment, and cool
+completely, about 2 hours. (Cooled cakes can be wrapped with plastic
+wrap and stored at room temperature for up to 2 days.)
+
+For the frosting: Using stand mixer fitted with paddle, mix butter and
+sugar on low speed until combined, about 30 seconds. Increase speed to
+medium-high and beat until pale and fluffy, about 2 minutes. Add cream
+cheese, one piece at a time, and beat until incorporated, about 1
+minute. Add reserved strawberry solids and salt and mix until
+combined, about 30 seconds. Refrigerate until ready to use, up to 2
+days.
+
+Pat strawberries dry with paper towels. When cakes are cooled, spread
+3/4 cup frosting over 1 cake round. Press 1 cup strawberries in even
+layer over frosting and cover with additional 3/4 cup frosting. Top
+with second cake round and spread remaining frosting evenly over top
+and sides of cake. Garnish with remaining strawberries. Serve. (Cake
+can be refrigerated for 2 days. Bring to room temperature before
+serving.)
+
+\chapter{Cold Treats}
+\section{Ice Cream}
+
+\subsection{Plain Base}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+$2$   C & whole milk            \\ 
+$1$   C & heavy cream           \\ 
+$4$     & large egg yolks       \\
+$2/3$ C & sugar                 \\ \\
+\end{tabular}
+\subsubsection{Instructions}
+In a heavy-bottom saucepan, combine the milk and cream. Place over medium-low heat and cook, stirring occasionally so a skin does not form, until tiny bubbles start to form around the edges and the mixture reaches a temperature of 170 degrees F.
+
+Meanwhile, in a medium heat-proof bowl, whisk the egg yolks until smooth. Gradually whisk in the sugar until it is well incorporated and the mixture is thick and pale yellow. Temper the egg yolks by very slowly pouring in the hot milk mixture while whisking continuously. Return the custard to the saucepan and place over low heat. Cook, stirring frequently with a wooden spoon, until the custard is thick enough to coat the back of the spoon and it reaches a temperature of 185 degrees F. Do not bring to a boil.
+
+Pour the mixture through a fine-mesh strainer into a clean bowl and let cool to room temperature, stirring every 5 minutes or so. To cool the custard quickly, make an ice bath by filling a large bowl with ice and water and placing the bowl with the custard in it; stir the custard until cooled. Once completely cooled, cover and refrigerate until very cold, at least 4 hours or overnight.
+
+\subsection{Strawberry}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+$1$   l  & modified plain base (sugar reduced to 1/2 cup) \\
+$1$   lb & strawberries, hulled and thinly sliced \\ 
+$1/4$ C  & sugar    \\
+$2$   T  & fresh lemon juice  \\ \\
+\end{tabular}
+\subsubsection{Instructions}
+Make the Plain Base and chill as directed.
+
+Place the strawberries in a medium saucepan. Sprinkle with the sugar, then add the lemon juice; toss until the sugar is dissolved and the strawberries are well coated. Let sit for 15 minutes stirring occasionally.
+
+Place the pan of strawberries over medium-low heat and cook until the strawberries soften completely and the syrup just starts to thicken, about 10 minutes. Remove from the heat and let cool to room temperature. Transfer to a container, cover, and refrigerate until cold, at least 2 hours.
+
+Reserve a quarter of the strawberries and syrup. Place the remaining strawberries in a blender, add half the base, and blend until fully incorporated. Whisk into the remaining base.
+
+Pour the mixture into the container of an ice cream machine and churn according to the manufacturer's instructions. Add the reserved strawberries 5 minutes before the churning is completed. Transfer to an airtight container and freeze for at least 2 hours before serving.
+
+\subsection{Black Sesame}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+$1$   l & plain base            \\ 
+$3/4$ C & black sesame seeds    \\ 
+$1/8$ t & pure vanilla extract  \\ \\
+\end{tabular}
+\subsubsection{Instructions}
+Place half of the base in a blender and add 1/2 cup of the sesame seeds and the vanilla. Blend until incorporated then whisk into the remaining base. Pour the mixture into the container of an ice cream machine and churn. Add the remaining $1/4$ cup of sesame seeds 5 minutes before the churning is completed. Transfer to an airtight container and freeze for at least two hours before serving.
+
+\section{Ice Pops}
+\subsection{Fudgesicle}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+  2 T       & (21 grams or 3/4 ounce) semisweet chocolate chips or chopped semisweet chocolate \\
+  $1/3$ C   & (67 grams or 2 1/3 ounce) sugar \\
+  1 T       & (7 grams or 1/4 ounce) cornstarch \\
+  $1-1/2$ T & (8 grams or 1/4 ounce) unsweetened cocoa powder \\
+  $1-1/4$ C & (300 ml) whole milk \\
+  $1/8$ t   & salt \\
+  $1/2$ t   & (3 ml) vanilla extract \\
+  $1/2$ T   & (7 grams or 1/4 ounce) unsalted butter \\ \\
+\end{tabular}
+
+\subsubsection{Instructions}
+In the bottom of a medium saucepan over very low heat, gently melt the chocolate chips, stirring constantly until smooth. Stir in sugar, cornstarch, cocoa powder, milk and salt and raise heat to medium. Cook mixture, stirring frequently until it thickens, anywhere between 5 and 10 minutes. Remove from heat, add vanilla and butter and stir until combined.
+
+Set aside to cool slightly then pour into popsicle molds. Freeze 30 minutes, then insert popsicle sticks. Freeze the rest of the way before serving.
+
+This recipe was adapted from a recipe in 'On a Stick' by Matt Amendariz.
+
+\chapter{Non-Foods}
+\section{For the Kids}
+\subsection{Bubble Solution}
+\subsubsection{Ingredients}
+\begin{tabular}{r p{1.5in}}
+  1 t        & guar gum (5.25 g) \\
+  2 T        & isopropyl alcohol (30 ml) \\
+  2 t        & baking powder (10 g) \\
+  $9 1/2$ T  & dishwashing detergent \\
+  $15 1/2$ C & water (3.640 L) \\ \\
+\end{tabular}
+
+\subsubsection{Instructions}
+Combine guar gum and isopropyl alcohol to form a slurry. Allow solution to thicken, approximately 5 minutes. Add baking powder and stir until dissolved. Pour solution into gallon jug and add water. Add dishwashing detergent and swirl to mix.
+
+The solution will improve over a day but is best used within a week.
+
+\begin{thebibliography}{99}
+
+\bibitem{McGee} McGee, H, {\it On Food and Cooking: The Science and Lore of the Kitchen}, 2004
+
+\bibitem{Pearce} Pearce, F.W. and Zecchin, D {\it Ciao Bella Book of Gelato and Sorbetto}
+\end{thebibliography}
+
+\end{document}
+
